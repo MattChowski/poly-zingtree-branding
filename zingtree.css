@@ -160,6 +160,14 @@ header .zt_title {
 	font-size: 1.5rem;
 }
 
+.zingtree-node .content-only a {
+	color: #e13200;
+}
+
+.zingtree-node .content-only h1 {
+	color: #e13200;
+	text-transform: uppercase;
+}
 /*------------*/
 /* BREADCRUMB */
 /*------------*/
