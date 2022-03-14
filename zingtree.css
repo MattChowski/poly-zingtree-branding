@@ -137,6 +137,11 @@ header .zt_title {
 	font-family: "ff-good-headline-web-pro";
 	font-weight: 400;
 	font-size: 1.25rem;
+	transition: 0.2s;
+}
+
+.zingtree-node .panels-node-question .answers .list-group-item:hover {
+	padding-left: 24px;
 }
 
 .zingtree-node .panels-node-question .answers .list-group-item:hover {
