@@ -177,8 +177,8 @@ header .zt_title {
 .breadcrumb  {
 	background: transparent;
 	margin: 0;
-	padding: 0;
-	line-height: 48px;
+	padding: 8px 0;
+	line-height: 24px;
 	border-radius: 0;
 }
 
@@ -235,4 +235,32 @@ header .zt_title {
 #back_button:hover, #restart_button:hover {
 	color: white;
 	background: #e13200;
+}
+
+
+/*----------*/
+/* LANGUAGE */
+/*----------*/
+.pull-right-md {
+	text-align: right;
+	background: #fafafa;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+	float: initial !important;
+}
+
+.pull-right-md .goog-te-gadget-simple {
+	border: 0;
+	background: transparent;
+}
+
+.pull-right-md .goog-te-gadget-simple img {
+	mix-blend-mode: multiply;
+}
+
+.pull-right-md .goog-te-menu-value {
+	color: #666;
+	font-weight: 400;
 }
