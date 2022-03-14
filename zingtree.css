@@ -141,11 +141,8 @@ header .zt_title {
 }
 
 .zingtree-node .panels-node-question .answers .list-group-item:hover {
-	padding-left: 24px;
-}
-
-.zingtree-node .panels-node-question .answers .list-group-item:hover {
 	background: #e8e8e8;
+	padding-left: 24px;
 }
 
 .zingtree-node .panels-node-question #question_area .list-group-item-question {
