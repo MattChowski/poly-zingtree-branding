@@ -33,6 +33,10 @@ br {
 	display: none;
 }
 
+.content-only br {
+	display: initial;
+}
+
 footer .plaincopyright {
 	background-color: transparent!important;
 	color: #666;
@@ -326,4 +330,63 @@ header .zt_title {
 .pull-right-md .goog-te-menu-value {
 	color: #666;
 	font-weight: 400;
+}
+
+/*--------------*/
+/* MAIN CONTENT */
+/*--------------*/
+.content-only .zt-all-clicks .zt-history-answer {
+	padding: 0;
+	background: transparent;
+	color: #e13200;
+	font-weight: 600;
+}
+
+.content-only .zt-all-clicks .zt-history-question,
+.content-only .zt-all-clicks .zt-history-answer {
+	display: block;
+	margin-top: 8px;
+}
+
+.content-only .zt-all-clicks .zt-history-question:before {
+	background: #999;
+}
+
+.content-only .zt-all-clicks .zt-history-answer:before {
+	background: red;
+}
+
+.content-only .zt-all-clicks .zt-history-question:before,
+.content-only .zt-all-clicks .zt-history-answer:before {
+	display: inline-block;
+	text-align: center;
+	margin-right: 8px;
+	width: 24px;
+	height: 24px;
+	border-radius: 4px;
+	font-weight: 600;
+	color: white;
+}
+
+.content-only .zt-all-clicks .zt-history-question:after {
+	content: none;
+}
+
+.content-only .zt-all-clicks .zt-history-answer:before {
+	content: 'A: '
+}
+
+.content-only .btn {
+	background: #e13200;
+	border: 0;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 16px 8px 16px 0!important;
+	padding: 12px 16px;
+}
+
+.content-only .btn:hover {
+	background: #ff3700;
 }
